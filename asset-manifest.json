@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kachkacha2003/react-calculator.git/static/css/main.1f69fb79.css",
-    "main.js": "/kachkacha2003/react-calculator.git/static/js/main.e932660e.js",
-    "static/media/logo-header.svg": "/kachkacha2003/react-calculator.git/static/media/logo-header.3cc0528bd46321d63d85702006069614.svg",
-    "index.html": "/kachkacha2003/react-calculator.git/index.html",
-    "main.1f69fb79.css.map": "/kachkacha2003/react-calculator.git/static/css/main.1f69fb79.css.map",
-    "main.e932660e.js.map": "/kachkacha2003/react-calculator.git/static/js/main.e932660e.js.map"
+    "main.css": "/kachkacha2003/react-calculator/static/css/main.1f69fb79.css",
+    "main.js": "/kachkacha2003/react-calculator/static/js/main.4e0e2e6c.js",
+    "static/media/logo-header.svg": "/kachkacha2003/react-calculator/static/media/logo-header.3cc0528bd46321d63d85702006069614.svg",
+    "index.html": "/kachkacha2003/react-calculator/index.html",
+    "main.1f69fb79.css.map": "/kachkacha2003/react-calculator/static/css/main.1f69fb79.css.map",
+    "main.4e0e2e6c.js.map": "/kachkacha2003/react-calculator/static/js/main.4e0e2e6c.js.map"
   },
   "entrypoints": [
     "static/css/main.1f69fb79.css",
-    "static/js/main.e932660e.js"
+    "static/js/main.4e0e2e6c.js"
   ]
 }
