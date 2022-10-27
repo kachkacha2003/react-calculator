@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function SecondPart() {
+export default function SecondPart(props) {
   return (
     <div className='second-part'>
     <div className='flex'>
@@ -9,7 +9,7 @@ export default function SecondPart() {
       <h5>/ person</h5>
       </div>
       <div className='dolar'>
-        <h2>$0.00</h2>
+      <h2>$<span>{`${props.tipCalculate.toFixed(2)}`}</span></h2>
 
       </div>
       
@@ -21,13 +21,13 @@ export default function SecondPart() {
       <h5>/ person</h5>
       </div>
       <div className='second-dolar'>
-        <h2>$0.00</h2>
+        <h2>$<span>{`${props.personCalculate.toFixed(2)}`}</span></h2>
 
       </div>
     
 
     </div>
-    <button className='reset'>RESET</button>
+    <button onClick={props.delete} className='reset'>RESET</button>
     </div>
   )
 }

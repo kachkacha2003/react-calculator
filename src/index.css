@@ -6,18 +6,22 @@
   box-sizing: border-box;
   font-family: 'Space Mono', monospace;
 }
-.body{
+body{
   width: 100vw;
-  height: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  
   
   background-color: rgba(197, 228, 231, 1);
-  display: flex;
-  
-  justify-content: center;
-  align-items: center;
- flex-direction: column;
+ 
 
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#root{
+  height: 100%;
 }
 .container{
   height: 481px;
@@ -26,6 +30,8 @@ border-radius: 25px;
 background-color: white;
 padding: 32px 32px 32px 48px;
 display: flex;
+margin: 0 auto;
+margin-top: 87px;
 
 }
 h3{
@@ -46,6 +52,9 @@ line-height: 36px;
 letter-spacing: 0px;
 border: none;
 
+}
+input:focus{
+  outline: none;
 }
 .first-part{
    margin-top: 11px;
@@ -167,5 +176,132 @@ margin-top: 134px;
   width: 100%;
 }
 .img{
-  margin-bottom: 87px;
+  margin-top: 163px;
+
+}
+.error{
+  width: 379px;
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.eror{
+  color: rgba(225, 116, 87, 1);
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+display: none;
+
+
+}
+.eror1{
+  color: rgba(225, 116, 87, 1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  display: none;
+
+}
+.change1{
+  display: block;
+}
+.change{
+  display: block;
+}
+.border{
+ 
+  border: 2px solid rgba(225, 112, 82, 1);
+  
+}
+.green{
+  border: 2px solid rgba(38, 194, 174, 1);
+}
+.brux{
+  border: 2px solid black;
+  outline: none;
+}
+.green-color{
+  background-color: rgba(38, 194, 174, 1);
+  color: rgba(0, 71, 75, 1);
+}
+
+  
+@media(max-width:1200px){
+  .container{
+   height: auto;
+width: 375px;
+padding: 32px;
+flex-direction: column;
+align-items: center;
+
+  }
+  input{
+    height: 48px;
+width: 311px;
+left: 0px;
+top: 0px;
+border-radius: 5px;
+
+  }
+  .tip{
+    margin-top: 32px;
+  }
+  .buttons{
+    grid-template-columns: auto auto;
+   
+width: 311px;
+
+
+  }
+  button{
+    height: 48px;
+width: 146.6311798095703px;
+
+border-radius: 5px;
+
+  }
+  .enter-procent{
+    height: 48px;
+width: 147.81369018554688px;
+
+border-radius: 5px;
+
+  }
+  .people-quantity{
+    margin-top: 32px;
+  }
+  .second-part{
+    margin-top: 32px;
+    height:auto;
+width: 327px;
+padding: 24px;
+border-radius: 15px;
+margin-left: 0px;
+
+  }
+  .reset{
+    margin-top: 35px;
+    height: 48px;
+width: 281px;
+
+border-radius: 5px;
+
+  }
+  .first-part{
+    margin-top: 0px;
+  }
+  span{
+    height: 47px;
+width: 96px;
+
+
+  }
+  .error{
+    width: 321px;
+    display: flex;
+    flex-direction: column;
+  }
 }
